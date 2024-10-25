@@ -1,0 +1,80 @@
+
+body{
+    background: gray ;
+}
+
+#main-header{
+    background-color: #333;
+}
+
+#text1{
+    color: white;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(224, 221, 221);
+    
+}
+.menu a:hover{
+    color: red;
+}
+
+section{
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    border: 1px solid#ccc;
+}
+
+.section-info{
+    background-color: whitesmoke    ;
+}
+
+.list-item{
+    color: #555;
+}
+
+.list-item:nth-child(3n){
+    font-style: italic;
+    color: black;
+}
+
+input{
+    border: 1px solid #ddd;
+}
+
+#message{
+    border: 1px solid #ddd;
+}
+
+input:focus,
+#message:focus
+{ 
+    border: 2px solid red;
+    outline: none;
+}
+
+[value="Enviar"]{
+    background: #007bff;
+    color: white;
+}
+
+[value="Enviar"]:hover{
+    background: #007bff;
+    color: white;
+}
+
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2:before{
+    content: "--";
+}
+
+.menu a:visited{
+    color: #007bff;
+}
